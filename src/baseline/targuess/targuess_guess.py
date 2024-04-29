@@ -202,17 +202,5 @@ def main():
 
     model.evaluate_file(input, output)
 
-    # pwds = [
-    #     "123456", 
-    #     "abcqwe", 
-    #     "abc123"
-    # ]
-
-    # for pwd in pwds:
-    #     res = model.generate_guess(pwd, 10)
-    #     print(f"{pwd}: {len(res)}")
-    #     print(res)
-    # pass
-
 if __name__ == '__main__':
     main()

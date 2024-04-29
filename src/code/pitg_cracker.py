@@ -59,8 +59,6 @@ class FileEvaluator:
         C1 = multiply(C1, self.weights[ri]["alpha"])
         C3 = multiply(C3, self.weights[ri]["gamma"])
 
-        print(C1)
-
         g1, _ = self.generate_gn(C1, pwd2)
         g2, _ = self.generate_gn(C1 + C2, pwd2)
         g3, _ = self.generate_gn(C1 + C3, pwd2)

@@ -168,11 +168,10 @@ class TarGuessII:
 
 
 def main():
-
     popular_pwds = "/disk/data/general/rockyou_new.txt"
     pwd_pairs = "/disk/data/targuess/2_train/targuessii/Collection1_cos_4kw.csv"
     model_save = "/disk/yjt/PersonalTarGuess/model/targuessii/t_collection1_4kw_m_targuessii.json"
-
+    
     # popular_pwds = "/disk/yjt/PersonalTarGuess/data/popular/rockyou_demo.txt"
     # pwd_pairs = "/disk/data/targuess/2_train/targuessii/Collection1_cos_100.csv"
     # model_save = "/disk/yjt/PersonalTarGuess/model/targuessii/t_collection1_100_m_targuessii.json"
